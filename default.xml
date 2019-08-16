@@ -21,6 +21,6 @@
 
 	<!--Qemu source-->
 	<project path="external/qemu" name="platform/external/qemu" remote="aosp" />
-	<extend-project path="external/qemu" revision="emu-3.1-release" />
+	<extend-project name="platform/external/qemu" revision="emu-3.1-release" />
 </manifest>
 
