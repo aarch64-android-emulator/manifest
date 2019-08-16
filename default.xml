@@ -15,6 +15,9 @@
 	<!--Toolchain sources	-->
 	<project path="toolchain/binutils" name="toolchain/binutils" remote="aosp" />
 
+	<!--Prebuilts-->
+	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" />
+
 	<!--Qemu source-->
 	<project path="external/qemu" name="platform/external/qemu" remote="aosp" />
 </manifest>
