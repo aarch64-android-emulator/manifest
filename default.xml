@@ -10,7 +10,7 @@
 		sync-j="4" />
 
 	<!--Tools-->
-	<project path="ndk" name="ndk" remote="aosp" />
+	<project path="ndk" name="platform/ndk" remote="aosp" />
 
 	<!--Sources	-->
 	<project path="toolchain/binutils" name="toolchain/binutils" remote="aosp" />
