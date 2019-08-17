@@ -16,11 +16,11 @@
 	<project path="toolchain/binutils" name="toolchain/binutils" remote="aosp" />
 
 	<!--Clang-->
-	<project path="external/clang" name="platform/external/clang" remote="aosp" revision="emu-3.1-release" />
+	<project path="external/clang" name="platform/external/clang" remote="aosp" />
 
 	<!--Prebuilts-->
 	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" />
-	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" remote="aosp" />
+	<project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86"  revision="emu-3.1-release" remote="aosp" />
 
 	<!--Qemu source-->
 	<project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="emu-3.1-release" />
