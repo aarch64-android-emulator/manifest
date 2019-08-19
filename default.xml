@@ -37,5 +37,8 @@
 
 	<!--Generic device-->
 	<project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="emu-3.1-release" remote="aosp" />
+
+	<!--libyuv library-->
+	<project path="external/libyuv" name="platform/external/libyuvt" revision="emu-3.1-release" remote="aosp" />
 </manifest>
 
