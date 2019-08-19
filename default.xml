@@ -43,5 +43,7 @@
 
 	<!--tinyobjloader library-->
 	<project path="external/tinyobjloader" name="platform/external/tinyobjloader" revision="emu-3.1-release" remote="aosp" />
+
+	<project path="external/astc-codec" name="platform/external/astc-codec" revision="emu-3.1-release" remote="aosp" />
 </manifest>
 
