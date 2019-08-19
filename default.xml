@@ -30,5 +30,8 @@
 
 	<!--Qemu source-->
 	<project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="emu-3.1-release" />
+
+	<!--Google test-->
+	<project path="external/googletest" name="platform/external/googletest" revision="emu-3.1-release" remote="aosp" />
 </manifest>
 
