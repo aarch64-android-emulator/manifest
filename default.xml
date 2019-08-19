@@ -40,5 +40,8 @@
 
 	<!--libyuv library-->
 	<project path="external/libyuv" name="platform/external/libyuv" revision="emu-3.1-release" remote="aosp" />
+
+	<!--tinyobjloader library-->
+	<project path="external/tinyobjloader" name="platform/external/tinyobjloader" revision="emu-3.1-release" remote="aosp" />
 </manifest>
 
