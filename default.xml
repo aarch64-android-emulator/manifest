@@ -26,6 +26,7 @@
 	<project path="prebuilts/android-emulator-build/qemu-android-deps" name="platform/prebuilts/android-emulator-build/qemu-android-deps" revision="emu-3.1-release" remote="aosp" />
 	<project path="prebuilts/android-emulator-build/curl" name="platform/prebuilts/android-emulator-build/curl" revision="emu-3.1-release" remote="aosp" />
 	<project path="prebuilts/android-emulator-build/protobuf" name="platform/prebuilts/android-emulator-build/protobuf" revision="emu-3.1-release" remote="aosp" />
+	<project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" revision="emu-3.1-release" remote="aosp" />
 
 	<!--Qemu source-->
 	<project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="emu-3.1-release" />
