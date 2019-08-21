@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote 
+		name="github"
+		fetch="https://github.com/" />
+
+	<remote 
 		name="aosp"
 		fetch="https://android.googlesource.com/"
 		review="https://android-review.googlesource.com/" />
+
 	<default
 		revision="master"
 		remote="aosp"
@@ -30,7 +35,7 @@
 	<project path="prebuilts/archive" name="platform/prebuilts/android-emulator-build/archive" revision="emu-3.1-release" remote="aosp" />
 
 	<!--Qemu source-->
-	<project path="external/qemu" name="platform/external/qemu" remote="aosp" revision="emu-3.1-release" />
+	<project path="external/qemu" name="aarch64-android-emulator/manifest" remote="github" revision="emu-3.1-release" />
 
 	<!--Google test-->
 	<project path="external/googletest" name="platform/external/googletest" revision="emu-3.1-release" remote="aosp" />
