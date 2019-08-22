@@ -23,6 +23,8 @@
 	<!--Clang-->
 	<project path="external/clang" name="platform/external/clang" remote="aosp" />
 
+	<project path="external/angle" name="platform/external/angle" remote="aosp" />
+
 	<!--Prebuilts-->
 	<project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" />
 	<project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" />
