@@ -36,7 +36,7 @@
 	<project path="prebuilts/archive" name="platform/prebuilts/android-emulator-build/archive" revision="emu-3.1-release" remote="aosp" />
 
 	<!--Qemu source-->
-	<project path="external/qemu" name="aarch64-android-emulator/manifest" remote="github" revision="emu-3.1-release" />
+	<project path="external/qemu" name="aarch64-android-emulator/aarch64-qemu" remote="github" revision="emu-3.1-release" />
 
 	<!--Google test-->
 	<project path="external/googletest" name="platform/external/googletest" revision="emu-3.1-release" remote="aosp" />
